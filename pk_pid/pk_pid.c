@@ -17,7 +17,6 @@ void pid_init(PID* tracker, double p, double i, double d)
 	tracker->current.value = 0;
 	tracker->prev.ticks = 0;
 	tracker->prev.value = 0;
-	
 }
 
 void pid_sampling(PID* tracker, int reading)
