@@ -1,0 +1,6 @@
+*.o
+*.exe
+pk_pid/Makefile.win
+pk_pid/pk_pid.dev
+pk_pid/pk_pid.layout
+pk_pid/main.c
